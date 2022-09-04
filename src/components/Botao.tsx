@@ -4,7 +4,7 @@ export class Button extends React.Component{
      render(): React.ReactNode {
          return (
             <div>
-                <button>
+                <button onClick={(e)=>e.preventDefault()}>
                     Click here!!!
                 </button>
             </div>

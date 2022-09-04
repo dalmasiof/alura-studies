@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Button } from "./Botao";
+
 import "../style/form.css";
 export default class Form extends Component {
   render() {
@@ -13,9 +15,7 @@ export default class Form extends Component {
               <input placeholder="Age" />
             </div>
             <div>
-              <button type="submit" onClick={(e) => e.preventDefault()}>
-                Submit form
-              </button>
+             <Button/>
             </div>
           </form>
         </div>
